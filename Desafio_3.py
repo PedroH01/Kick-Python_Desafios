@@ -3,9 +3,9 @@ import os
 Código = input("Digite o Código do produto:")
 Nome = input("Digite o Nome do produto:")
 Quantidade = int(input("Digite a Quantidade do produto:"))
-Preço = int(input("Digite o Preço do produto:"))
+Preço = float(input("Digite o Preço do produto:"))
 
-Valor = Quantidade * Preço;
+Valor = Quantidade * Preço
 
 print("----------Informações----------")
 print("Código:",Código)
