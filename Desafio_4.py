@@ -1,9 +1,9 @@
 import os
 
-metro = float(input("Informe um valor em metros: "))
+cm = int(input("Digite um valor em centímetros: "))
 
-resultado = metro * 100
+m = cm / 100
 
-print(metro,"m equivale a:",resultado,"cm")
+print(cm,"cm convertido para ", m,"metros")
 
 os.system("pause")
